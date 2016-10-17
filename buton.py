@@ -12,7 +12,7 @@ class MainWindow(Gtk.Window):
 
     #Buton hareketi
     def buton_tikla(self, widget):
-        print("SENOLKARAKURT")
+        print("PYTHONGTK")
 
 pencere = MainWindow()
 pencere.connect("delete-event", Gtk.main_quit)
