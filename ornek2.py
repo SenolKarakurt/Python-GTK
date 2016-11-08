@@ -19,7 +19,7 @@ class MainWindow(Gtk.Window):
 
         # Label
         label = Gtk.Label()
-        label.set_markup("<big>SENOLKARAKURT</big>")
+        label.set_markup("<big>PYTHONGTK</big>")
         alan.add_titled(label, "label_adi", "Buyuk Label")
 
         # StackSwitcher

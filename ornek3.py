@@ -9,7 +9,7 @@ class MainWindow(Gtk.Window):
 
         header_bar = Gtk.HeaderBar()
         header_bar.set_show_close_button(True)
-        header_bar.props.title = "SENOLKARAKURT"
+        header_bar.props.title = "HEADER BAR"
         self.set_titlebar(header_bar)
 
         # Olusturulan kutu da baglanmis ogeler
